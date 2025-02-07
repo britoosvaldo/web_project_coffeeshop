@@ -3,6 +3,123 @@
   max-width: 1600px;
   margin: auto;
   font-family: "Inter", "arial", sans-serif;
+  font-family: "Noto Serif", "time new roman", serif;
   font-size: 16px;
   line-height: 20px;
+}
+
+.header {
+  background-image: url(/images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
+}
+
+.header__span-accent {
+  display: block;
+  font-family: "noto serif";
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__title {
+  margin-top: 183px;
+  margin-left: 80px;
+  max-width: 709px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+}
+
+.header__description {
+  display: flex;
+  margin-top: 28px;
+  margin-left: 80px;
+  max-width: 683px;
+  font-family: "noto serif";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  margin-top: 30px;
+  margin-right: 80px;
+  padding-left: 0;
+  font-family: "inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__footer {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+  left: 80px;
+}
+
+.header__paragraph {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+}
+
+.recipes {
+  background-image: url(/images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0a2750;
+  position: relative;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+}
+
+.recipes__title {
+  position: absolute;
+  max-width: 580px;
+  top: 100px;
+  left: 80px;
 }
