@@ -16,6 +16,8 @@
   background-size: cover;
   position: relative;
   height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .nav {
@@ -44,6 +46,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  color: #000000;
 }
 
 .header__title {
@@ -103,6 +107,8 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
+  min-height: 720px;
+  max-height: 800px;
 }
 
 .recipes__title {
@@ -152,4 +158,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }

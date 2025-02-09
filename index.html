@@ -28,7 +28,9 @@
             class="nav__logo"
           />
           <ul class="nav__links">
-            <li class="nav__link">Receitas</li>
+            <li>
+              <a class="nav__link" href="#recipes">Receitas</a>
+            </li>
             <li class="nav__link">Reservar uma mesa</li>
             <li class="nav__link">Contatos</li>
           </ul>
@@ -57,7 +59,7 @@
       </header>
 
       <main class="content">
-        <section class="recipes">
+        <section id="recipes" class="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <h3 class="recipes__subtitle">
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
@@ -72,7 +74,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">Receita Starbucks ~14 min</p>
+              <p class="recipes__video-caption">
+                <span class="caption-left">Receita Starbucks</span>
+                <span class="caption-right">~14 min</span>
+              </p>
             </div>
             <div class="recipes__video-item">
               <iframe
@@ -83,7 +88,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <p class="recipes__video-caption">Receita Aeropress ~5 min</p>
+              <p class="recipes__video-caption">
+                <span class="caption-left">Receita Aeropress</span>
+                <span class="caption-right">~5 min</span>
+              </p>
             </div>
           </div>
         </section>
