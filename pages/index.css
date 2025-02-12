@@ -93,12 +93,14 @@ body {
 
 .header__footer {
   margin: auto 80px 40px 80px;
-
   font-family: "Inter";
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
 .header__paragraph {
@@ -116,6 +118,7 @@ body {
   position: relative;
   min-height: 720px;
   max-height: 800px;
+  box-sizing: border-box;
 }
 
 .recipes__title {
@@ -168,4 +171,93 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.reservation {
+  background-image: url(../images/background_reservation.svg);
+  background-color: #d9e7ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 80px 120px;
+  text-align: center;
+}
+
+.reservation__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto 80px;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form__fieldset {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+.form__input {
+  height: 60px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__button {
+  border-radius: 4px;
+  height: 60px;
+  width: 100%;
+  border: none;
+  background-color: #2f80ed;
+  color: #ffffff;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.form__button:hover {
+  opacity: 70%;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.form__label_checkbox {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
