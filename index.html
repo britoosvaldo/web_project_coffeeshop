@@ -114,7 +114,6 @@
                   required
                 />
               </label>
-
               <label for="number" class="form__label"
                 >Número de convidados *
                 <input
@@ -126,12 +125,10 @@
                   placeholder="1-8"
                 />
               </label>
-
               <label for="date" class="form__label"
                 >Data e hora *
                 <input type="datetime-local" class="form__input" id="date" />
               </label>
-
               <label for="email" class="form__label"
                 >Seu e-mail *
                 <input
@@ -141,11 +138,9 @@
                   placeholder="email@email.com"
                 />
               </label>
-
               <button type="submit" class="form__button">
                 Reservar uma mesa
               </button>
-
               <label for="checkbox" class="form__label form__label_checkbox">
                 <input type="checkbox" class="form__checkbox" id="checkbox" />
                 Eu concordo com os termos de uso
@@ -155,7 +150,44 @@
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Logo branca"
+              class="footer__logo"
+            />
+          </div>
+
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Redes Sociais</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="icone facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__column-link" href="#">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="icone instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Osvaldo Brito</p>
+      </footer>
     </div>
   </body>
 </html>
