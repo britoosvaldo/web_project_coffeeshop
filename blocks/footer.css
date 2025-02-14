@@ -68,6 +68,10 @@
   color: #c1c1c1;
 }
 
+.footer__social-link:focus {
+  color: #c1c1c1;
+}
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
